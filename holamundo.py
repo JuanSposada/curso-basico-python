@@ -18,7 +18,7 @@ if edad >= 18 and edad < 99:
     billetes = pesos / dollar
     billetes = int(billetes)
     billetes = str(billetes)
-    print(f"son: " + billetes, "de 1 dollar")
+    print(f"son: " + billetes, " billetes de 1 dollar")
 elif edad > 99:
     print("pase bajo su propio riesgo...")
 else:
